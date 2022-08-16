@@ -1,0 +1,48 @@
+.Wrap {
+    position: relative;
+}
+
+/* 위치 안 줄거면 width:100% 주면 됨 */
+/* fixed는 기준이 없다! 뷰포트에 있다. */
+#Header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px 40px;
+    display: flex;
+    min-width: 1900px;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    line-height: 77px;
+}
+
+#Header.on {
+    background: rgba(0, 0, 0, 1);
+    transition: 1s;
+}
+
+.Gnb ul {
+    display: flex;
+    gap: 30px;
+}
+
+.tel {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tel i {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 50%;
+    transform: translateY(-5px);
+    margin: 0 10px 0 0;
+}
+
+#MainVisual {
+    height: 100vh;
+    background: url(../img/bg_intro01.jpg)repeat-x ;
+}
