@@ -666,20 +666,20 @@ main {
 }
 
 #Customer h2 {
-    font-size: 30px;
+    font-size: 5vw;
     font-weight: 700;
     margin: 0 0 40px 0;
-    line-height: 1.2;
+    line-height: 1.5;
     padding: 0 15px;
 }
 #Customer h3 {
-    font-size: 25px;
+    font-size: 6vw;
     font-weight: 700;
     margin: 0 0 20px 0;
     line-height: 1.2;
 }
 #Customer p {
-    font-size: 14px;
+    font-size: 3vw;
 }
 
 #Customer .container {
